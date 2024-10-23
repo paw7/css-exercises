@@ -1,14 +1,7 @@
 div {
     color: white;
     background-color: red; 
-
-    p {
-        text-align:center; 
-    }
-
-    p {
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size:xx-large;
-        font-weight: bold;
-    }
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:xx-large;
+    font-weight: bold;
 }
