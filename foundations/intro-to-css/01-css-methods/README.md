@@ -18,7 +18,12 @@ The properties you need to add to each element are:
 
 ### Self Check
 - Did you use all three methods of adding CSS to an HTML file?
+  - External CSS, internal CSS, and inline CSS through "index.html" and "styles.css".  
 - Did you properly link the external CSS file in the HTML file?
+  - Via a `div` container in "styles.css".
 - Does the `div` element have CSS added via the external method?
+  - The "index.html" `div` reference in body linked them together with `div` in "styles.css"
 - Does the `p` element have CSS added via the internal method?
+  - Via *style* attribute with `p` element inside, in head of "index.html" 
 - Does the `button` element have CSS added via the inline method?
+  - Via `button `*style*...>Inline Method *style* attribute in "index.html"
