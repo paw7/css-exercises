@@ -15,5 +15,11 @@ This will help you further practice adding classes and using class selectors, so
 ### Self Check
 
 - Does each element have a unique class name?
+  - `<button class="night-mode">` and `button class ="light-mode">`
 - Did you use the grouping selector for styles that both elements share?
+  - `.night-mode, .light-mode {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}`
 - Did you make separate rules for the styles unique to each element?
+  - `.night-mode` and `.light-mode` have different rules in the CSS file.

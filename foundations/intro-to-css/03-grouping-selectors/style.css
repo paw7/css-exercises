@@ -1,0 +1,14 @@
+.night-mode {
+    background-color: black;
+    color: white;
+}
+
+.light-mode {
+    background-color: yellow;
+   
+}
+
+.night-mode, .light-mode {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
