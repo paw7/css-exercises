@@ -21,5 +21,8 @@ Quick tip: in VS Code, you can change which format colors are displayed in RGB, 
 
 ### Self Check
 - Do the odd numbered `p` elements share a class?
+  - The odd-numbered `p` elements all share a `<p class="odd">` in `index.html` and `.odd` in `style.css`
 - Do the even numbered `div` elements have unique IDs?
+  - The second `div` element is `<div id ="two">` while the fourth is `<div id="four">` 
 - Does the Number 3 element have multiple classes?
+  - The number three element has `<p class="odd adjust-font-size">` to indicate an odd numbered element with a class of `odd` and a class of `adjust-font-size`. The fourth element includes `<div id = "four" class="adjust-font-size">`. It should be noted that "adjust-font-size can be added to an element's class as in the number 3 element in addition to the word "odd", or be a standalone class as in the fourth element. Since bother the third and fourth elements are 24px, they both include the same adjust-font-size mentioned in class so will both end up with 24px.
